@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
-ENV TIMEZONE=Europe/Rome \
-    DEBIAN_FRONTEND=noninteractive
+ENV TIMEZONE=America/Chicago \
+    DEBIAN_FRONTEND=interactive
 
 RUN apt update && \
     dpkg --add-architecture i386 && \
